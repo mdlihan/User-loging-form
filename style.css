@@ -24,7 +24,7 @@ form{
   align-items: center;
   display: none;
   height: 100vh;
-  color: rgb(255, 255, 255,0.6);
+  color: rgb(0, 255, 0,0.6);
   font-weight: bolder;
   flex-direction: column;
   transition: 0.6s;
@@ -36,7 +36,7 @@ justify-content: center;
 align-items: center;
 display: none;
 height: 100vh;
-color: rgb(255, 255, 255, 0.6);
+color: rgb(0, 255, 0, 0.6);
 font-weight: bolder;
 flex-direction: column;
 transition: 0.6s;
