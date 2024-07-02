@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+#Container{
+  height: 100vh;
+  width: 100%;
+  background-image: url("/pexels-souvenirpixels-417074.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+form{
+  text-align: center;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#registration{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  height: 100vh;
+  color: rgb(255, 255, 255,0.6);
+  font-weight: bolder;
+  flex-direction: column;
+  transition: 0.6s;
+  transform: scale(0);
+}
+#loging{
+display: flex;
+justify-content: center;
+align-items: center;
+display: none;
+height: 100vh;
+color: rgb(255, 255, 255, 0.6);
+font-weight: bolder;
+flex-direction: column;
+transition: 0.6s;
+transform: scale(0);
+}
+#check{
+  color: springgreen;
+}
+#create-account{
+  display: none;
+}
+.loging-card {
+  padding: 3rem;
+  border-radius: 20px;
+  box-shadow:
+        0 0 10px rgba(0, 0, 0, 0.1),
+        0 0 10px rgba(0, 0, 0, 0.1), 
+        0 0 10px rgba(0, 0, 0, 0.1),
+        0 0 10px rgba(0, 0, 0, 0.1); 
+  animation: anim 2s ease-in-out infinite;
+}
+
+@keyframes anim {
+  0% {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  50% {
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+  100% {
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+}
+
+#email{
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  outline: none;
+  border: 2px solid sandybrown;
+  background-color: rgb(255, 255, 255,0.7)
+}
+#password{
+padding: 10px;
+border-radius: 20px;
+font-size: 1.1rem;
+outline: none;
+border: 2px solid sandybrown;
+margin-top: 1rem;
+background-color: rgb(255, 255, 255,0.7)
+}
+#submit{
+  margin-top: 1rem;
+  background-color: palegreen;
+  font-size: 1.3rem;
+  padding: 5px 20px;
+  border-radius: 50px;
+}
+#comfram-password{
+padding: 10px;
+border-radius: 20px;
+font-size: 1.1rem;
+outline: none;
+border: 2px solid sandybrown;
+margin-top: 1rem;
+background-color: rgb(255, 255, 255, 0.7)
+}
+p{
+  margin-top: 1rem;
+}
+p a{
+  text-decoration: none;
+  transition: 0.6s;
+}
+p a:hover{
+  text-decoration: underline;
+}

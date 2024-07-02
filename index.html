@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>loging page</title>
+</head>
+
+<body>
+    <div id="Container">
+      <!--loging start-->
+        <form id="myForm">
+            <div class="loging">
+            <div class="loging-card">
+              <input type="email" name="email" id="email" placeholder="Your Email">
+              <br>
+              <input type="password" name="password" id="password" placeholder= "password" minlength="8">
+              <br>
+              <button id="submit" type="submit">Submit</button>
+              <p><a id="others" href="#">create account ...</a></p>
+            </div>
+          </div>
+        </form>
+      <!--loging end-->
+          
+          
+          
+      <!--loging start-->
+      <form id="create-account">
+        <div class="loging">
+          <div class="loging-card">
+            <input value="" type="email" name="email" id="email" placeholder="Your Email">
+            <br>
+            <input value="" type="password" name="password" id="password" placeholder="password" minlength="8">
+            <br>
+             <input value="" type="password" name="confirmPassword" id="comfram-password" placeholder="confirm password" minlength="8">
+            <br>
+            <br>
+            <button id="submit" type="submit">registration</button>
+          </div>
+        </div>
+      </form>
+      <!--loging end-->
+      
+       <div>
+         <h1 id="registration">Registration Successful <br><br>
+         <i id="check" class="fa-solid fa-square-check"></i>
+         </h1>
+      </div>
+      
+       <div>
+         <h1 id="loging">Loging Successful <br><br>
+           <i id="check" class="fa-solid fa-square-check"></i>
+         </h1>
+       </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
